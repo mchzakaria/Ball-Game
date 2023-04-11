@@ -1,0 +1,42 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.centre{
+    margin-left: 500px;
+}
+.container{
+    border: 1px solid black ;
+    margin: 50px;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    background-color: beige;
+    
+}
+.ball{ 
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 40px;
+    
+}
+.khechba{
+    border: 1px solid black;
+    width: 140px;
+    height:25px ;
+    position: absolute;
+    top: 460px;
+    /* left: 230px; */
+    
+    
+}
+.score{
+    border: 1px solid black;
+    width: 50px;
+    position: absolute;
+    left: 550px;
+    background-color: rgb(96, 185, 185);
+}
